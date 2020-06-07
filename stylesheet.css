@@ -1,83 +1,84 @@
-ul {
+.list{
   list-style: none;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .container{
   width:1170px;
-  padding: 15px;
-  margin: 0 auto;
+
+
 }
 
-.header{
-  background-image:url(5人の戦士.jpg);
-  height: 500px;
-  background-size:cover;
-  position: relative;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-image: url(5人の戦士.JPG);
+  background-size: repeat-x;
+  /*background-size:repeat;*/
+
 }
 
-.introduce {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+
+.header-main {
+  display: block;
+  width: 75%;
+  height: 450px;
   background-color: white;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%);
-  width: 65%;
-  height: 400px;
-  text-align: center;/*一応BOX内の文字も中央寄せ*/
+  text-align: center;
 }
 
-.profile{
-  background: linear-gradient(white,red);
+.header-main-top {
+  background: linear-gradient(white,silver);
   border: 2px solid black;
   box-shadow: 0 0 0 1px #555;
   text-shadow: 0 1px 1px #fff;
-  color: white;
-  height: 50px;
-  position: relative;
-
-}
-
-.profile h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform : translate(-50%,-50%);
-  transform : translate(-50%,-50%);
-  width: 200px;
-  text-align: center;/*一応BOX内の文字も中央寄せ*/
-
-  padding-bottom: 40px;
+  color: black;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .photo img{
   float: left;
-  height: 350px;
-  width: 425px;
+  height: 385px;
+  width: 430px;
+  margin-top: 2px;
 
 }
 
-.sentence p{
+.header-main-sentence {
+text-align:justify;
+}
+
+.main{
+  margin-top: 0px;
+  background-color: #f7f7f7;
+    height: 500px;
+    text-align: center;
 
 }
 
 .headline h2{
 text-align: center;
 font-family: inherit;
- background-repeat: repeat-x;
+
 }
 
-.main{
-  background-color: #f7f7f7;
-    height: 650px;
-    text-align: center;
-}
+
 
 .main-contents{
   float: left;
-　width: 33%;
-  margin:40px;
+
+  margin:20px;
 }
 
 .main-icon{
@@ -87,7 +88,7 @@ font-family: inherit;
   width: 310px;
   height: 310px;
   margin-right: 0px;
-  margin-left: 0px;
+  margin-left: 10px;
   border-radius: 50%;
 }
 
@@ -107,10 +108,13 @@ font-family: inherit;
 h2{
   font-size: 30px;
 }
+
 .footer{
-background-image:url(よし.jpg);
+background-image:url(5人の戦士.jpg);
+/*background-size:cover;*/
 background-repeat: repeat;
 height: 300px;
+color: silver;
 
 
 }
@@ -129,7 +133,12 @@ margin: 40px;
 
 }
 
-.fa-twitter-square {
-  color: #00a1f2;
+@media(max-width:1170px){
+  .item{
+    width:100%;
+  }
 }
 
+*{box-sizing: border-box;
+
+}s
