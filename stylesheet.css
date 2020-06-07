@@ -19,9 +19,10 @@ header {
   justify-content: center;
   align-items: center;
   height: 600px;
-  background-image: url(5人の戦士.jpg);
+
   background-size: repeat-x;
-  /*background-size:repeat;*/
+  background-image:url(5人の戦士.jpg);
+  background-size:cover;
 
 }
 
