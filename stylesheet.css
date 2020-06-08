@@ -19,9 +19,9 @@ header {
   justify-content: center;
   align-items: center;
   height: 600px;
-
-  background-image:url(5人の戦士.jpg);
-  background-size:cover;
+  background-image: url(5人の戦士.JPG);
+  background-size: cover;
+  /*background-size:repeat;*/
 
 }
 
@@ -62,7 +62,7 @@ text-align:justify;
 .main{
   margin-top: 0px;
   background-color: #f7f7f7;
-    height: 500px;
+    height: 400px;
     text-align: center;
 
 }
@@ -72,51 +72,40 @@ text-align: center;
 font-family: inherit;
 
 }
-
-
-
-.main-contents{
-  float: left;
-
-  margin:20px;
+.main-content{
+display:flex;
+width:100%;
 }
 
-.main-icon{
-  position: relative;
+.main-content>div{
+width:calc(100% / 3);/* 3等分 */
+text-align:center;
+padding:5px;/* 必要に応じて */
 }
-.hobby img{
-  width: 310px;
-  height: 310px;
-  margin-right: 0px;
-  margin-left: 10px;
+
+.main-content>div>img{
+max-width:100%;
+height:auto;
+}
+
+
+
+.hobby {
+height: 100px;
+width: 100px;
   border-radius: 50%;
-}
-
-.title{
-
-
-}
-
-.txt-contents{
-  display: inline-block;
-  margin-top: 20px;
-  font-size:12px;
-  color:black;
-
 }
 
 h2{
   font-size: 30px;
 }
 
-.footer{
-background-image:url(5人の戦士.jpg);
-/*background-size:cover;*/
-background-repeat: repeat;
-height: 300px;
-color: silver;
-
-
+footer{
+  text-align: center;
+  background-image: url(5人の戦士.JPG);
+  background-size:cover;
+  height: 290px;
+  color: silver;
 }
 
 .follow{
@@ -132,13 +121,3 @@ margin: 40px;
     font-size: 150px;
 
 }
-
-@media(max-width:1170px){
-  .item{
-    width:100%;
-  }
-}
-
-*{box-sizing: border-box;
-
-}s
