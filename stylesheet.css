@@ -19,7 +19,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 600px;
-  background-image: url(5人の戦士.jpg);
+  background-image: url(kuro.jpg);
   background-size: cover;
   /*background-size:repeat;*/
 
@@ -102,7 +102,7 @@ h2{
 
 footer{
   text-align: center;
-  background-image: url(5人の戦士.jpg);
+  background-image: url(kuro.jpg);
   background-size:cover;
   height: 290px;
   color: silver;
