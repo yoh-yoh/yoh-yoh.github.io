@@ -96,13 +96,14 @@ footer{
   background-image: url(kuro.jpg);
   background-size:cover;
   height: 290px;
-  color: silver;
+  
 }
 
 .follow{
   text-align: center;
-
+  color: silver;
 }
+
 .icon{
 text-align: center;
 margin: 40px;
