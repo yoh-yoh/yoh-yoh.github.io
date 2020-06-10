@@ -96,12 +96,12 @@ footer{
   background-image: url(kuro.jpg);
   background-size:cover;
   height: 290px;
-  
+  color: silver;
 }
 
 .follow{
   text-align: center;
-  color: silver;
+ 
 }
 
 .icon{
@@ -115,9 +115,9 @@ margin: 40px;
 }
 
 .fa-twitter{
-  color:#1da1f2;
+  color:#4169e1;
 }
 
 .fa-instagram{
-  color:#e1306c;
+  color:#ba55d3;
 }
